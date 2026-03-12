@@ -15,7 +15,7 @@
 * **Oczekiwany wynik:** Zbudowane, wytrenowane i zapisane modele AI (pliki z wagami modeli) gotowe do procesu ewaluacji.
 
 ### 4. Ocena wyników modelu i optymalizacja
-* **Opis:** Przetestowanie modeli na zbiorze testowym. Porównanie wyników przy użyciu metryk kluczowych w cyberbezpieczeństwie: Precision, Recall, F1-Score oraz macierzy pomyłek (Confusion Matrix). Optymalizacja najlepszego modelu poprzez dostosowanie hiperparametrów (np. za pomocą metody Grid Search), aby zmaksymalizować wykrywalność ataków przy minimalizacji fałszywych alarmów.
+* **Opis:** Przetestowanie modeli na zbiorze testowym. Porównanie wyników przy użyciu metryk kluczowych w cyberbezpieczeństwie. Optymalizacja najlepszego modelu poprzez dostosowanie hiperparametrów, aby zmaksymalizować wykrywalność ataków przy minimalizacji fałszywych alarmów.
 * **Oczekiwany wynik:** Raport z wynikami badawczymi, porównanie skuteczności i wydajności modeli oraz wybór jednego, najbardziej optymalnego modelu AI.
 
 ### 5. Wdrożenie modelu i monitorowanie
