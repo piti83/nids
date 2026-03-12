@@ -3,7 +3,7 @@
 ## Kamienie milowe
 
 ### 1. Określenie tematu i celu projektu, analiza wymagań
-* **Opis:** Zdefiniowanie celu projektu, którym jest stworzenie systemu NIDS (Network Intrusion Detection System) opartego na sztucznej inteligencji. System ma klasyfikować ruch sieciowy jako "normalny" lub "atak" na podstawie metadanych połączeń. Określenie wymagań technologicznych (Python, biblioteki ML, opcjonalnie klient w C++) oraz zdefiniowanie problemu wysokiego odsetka fałszywych alarmów (False Positives) w cyberbezpieczeństwie.
+* **Opis:** Zdefiniowanie celu projektu, którym jest stworzenie systemu NIDS (Network Intrusion Detection System) opartego na sztucznej inteligencji. System ma klasyfikować ruch sieciowy jako "normalny" lub "atak" na podstawie metadanych połączeń. Określenie wymagań technologicznych oraz zdefiniowanie problemu wysokiego odsetka fałszywych alarmów w cyberbezpieczeństwie.
 * **Oczekiwany wynik:** Dokumentacja początkowa projektu, zdefiniowanie architektury systemu, wybór i uzasadnienie użycia publicznego zbioru danych o ruchu sieciowym (np. CICIDS2017).
 
 ### 2. Zbiór danych i ich przygotowanie
