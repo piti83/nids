@@ -11,7 +11,7 @@
 * **Oczekiwany wynik:** Przygotowany, wyczyszczony i zoptymalizowany zbiór danych, podzielony na zestaw treningowy, walidacyjny i testowy, gotowy do zasilenia modeli AI.
 
 ### 3. Wybór i implementacja modelu AI
-* **Opis:** Implementacja co najmniej dwóch różnych podejść do klasyfikacji: klasycznego algorytmu uczenia maszynowego (np. Random Forest lub XGBoost) oraz prostej, w pełni połączonej sieci neuronowej (np. w frameworku PyTorch). Prototypowanie i trenowanie modeli na przygotowanych danych treningowych.
+* **Opis:** Implementacja co najmniej dwóch różnych podejść do klasyfikacji: klasycznego algorytmu uczenia maszynowego (np. Random Forest lub XGBoost). Prototypowanie i trenowanie modeli na przygotowanych danych treningowych.
 * **Oczekiwany wynik:** Zbudowane, wytrenowane i zapisane modele AI (pliki z wagami modeli) gotowe do procesu ewaluacji.
 
 ### 4. Ocena wyników modelu i optymalizacja
