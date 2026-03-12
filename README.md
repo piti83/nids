@@ -19,5 +19,5 @@
 * **Oczekiwany wynik:** Raport z wynikami badawczymi, porównanie skuteczności i wydajności modeli oraz wybór jednego, najbardziej optymalnego modelu AI.
 
 ### 5. Wdrożenie modelu i monitorowanie
-* **Opis:** Przeniesienie wybranego modelu do środowiska uruchomieniowego poprzez stworzenie prostego interfejsu API (np. z użyciem biblioteki FastAPI). Stworzenie skryptu lub klienta (np. w C++), który symuluje wysyłanie parametrów pojedynczego połączenia sieciowego do API i odbiera werdykt systemu (predykcję modelu).
+* **Opis:** Przeniesienie wybranego modelu do środowiska uruchomieniowego poprzez stworzenie prostego interfejsu API (np. z użyciem biblioteki FastAPI). Stworzenie skryptu lub klienta, który symuluje wysyłanie parametrów pojedynczego połączenia sieciowego do API i odbiera werdykt systemu (predykcję modelu).
 * **Oczekiwany wynik:** Działający lokalnie prototyp systemu detekcji, zdolny do przyjmowania zapytań i klasyfikowania ruchu sieciowego przy wykorzystaniu wytrenowanego modelu AI w czasie zbliżonym do rzeczywistego.
