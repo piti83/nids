@@ -18,7 +18,11 @@ System będzie składał się z następujących etapów (Data Pipeline):
 3. **Predykcja (Inference):** Przepuszczenie wektora przez wytrenowany model klasyfikacyjny.
 4. **Werdykt:** Zwrócenie przez API odpowiedzi klasyfikującej połączenie z odpowiednim prawdopodobieństwem (Atak vs Normalny ruch).
 
-## 4. Wymagania Technologiczne
+## 4. Podejście algorytmiczne
+
+Ponieważ analizowane dane mają strukturę tabelaryczną (wyliczone statystyki przepływów), projekt oprze się na uczeniu nadzorowanym w celu rozwiązania problemu klasyfikacji binarnej. Zamiast sieci neuronowych, wykorzystane zostaną wydajne algorytmy zespołowe oparte na drzewach decyzyjnych, takie jak XGBoost.
+
+## 5. Wymagania Technologiczne
 * **Język:** Python 3.9+
 * **Analiza i obróbka danych:** `pandas`, `numpy`
 * **Wizualizacja:** `matplotlib`, `seaborn`
