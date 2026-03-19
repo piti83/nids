@@ -12,10 +12,10 @@ Do treningu i ewaluacji modelu wybrany został zbiór **[CICIDS2017](https://www
 * Zamiast surowych plików PCAP, dostarcza gotowe, wyekstrahowane cechy przepływów sieciowych
 
 ## 3. Architektura Systemu (High-Level)
-System będzie składał się z następujących etapów (Data Pipeline):
+System będzie składał się z następujących etapów:
 1. **Pobranie danych:** Odbiór wektora cech (metadanych) pojedynczego połączenia sieciowego.
 2. **Preprocessing:** Czyszczenie braków, normalizacja wartości numerycznych i kodowanie protokołów do formatu zrozumiałego dla modelu, zgodnie z wyuczonymi parametrami.
-3. **Predykcja (Inference):** Przepuszczenie wektora przez wytrenowany model klasyfikacyjny.
+3. **Predykcja:** Przepuszczenie wektora przez wytrenowany model klasyfikacyjny.
 4. **Werdykt:** Zwrócenie przez API odpowiedzi klasyfikującej połączenie z odpowiednim prawdopodobieństwem (Atak vs Normalny ruch).
 
 ## 4. Podejście algorytmiczne
