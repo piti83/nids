@@ -8,7 +8,6 @@ jupyter
 ipykernel
 fastapi
 uvicorn
-kagglehub
 time
 os
 joblib
